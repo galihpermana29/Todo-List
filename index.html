@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo-APP</title>
+		<link rel="stylesheet" href="./css/materialize.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body class="grey lighten-3">
+		<!-- NAVBAR -->
+
+		<nav class="blue lighten-1">
+			<div class="nav-wrapper container">
+				<a href="#" class="brand-logo left">Todo's</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#home">HOME</a></li>
+					<li><a href="profile.html">PROFILE</a></li>
+					<li><a href="task.html">ADD TASK</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+				</ul>
+				<a href="#" data-target="mobile-nav" class="sidenav-trigger right"
+					><i class="fas fa-bars"></i
+				></a>
+
+				<ul class="sidenav" id="mobile-nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="task.html">Add Task</a></li>
+					<li><a href="login.html">Log In</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- END OF NAVBAR -->
+
+		<!-- BODY -->
+		<div class="container" id="body-content">
+			<div class="mytask-wrapper">
+				<div class="mytask-text">
+					<h5 class="mytask-title">My Task</h5>
+					<p>8, October 2020</p>
+				</div>
+				<a
+					class="waves-effect waves-light btn-small blue lighten-1 mytask-button"
+					>Add Task
+				</a>
+			</div>
+
+			<div class="card-stacked white mytask-card">
+				<div class="card-content">
+					<div class="mytask-card-header-wrapper">
+						<p class="mytask-task-status red-text">Urgent</p>
+						<a
+							class="waves-effect waves-light btn-small finish-button"
+							>Done
+						</a>
+					</div>
+					<div class="mytask-card-text-wrapper">
+						<p class="mytask-task-title">
+							Basic Programming HW
+						</p>
+						<p class="mytask-task-description">
+							Doing my homework at eling.ub.ac.id
+						</p>
+					</div>
+					<div class="mytask-card-icon-wrapper">
+						<div class="clock-task">
+							<i class="fas fa-clock"></i>
+							<p class="mytask-task-clock">10-11 PM</p>
+						</div>
+						<div class="date-task">
+							<i class="far fa-calendar-alt"></i>
+							<p class="mytask-task-cal">10-08-2020</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END OF BODY -->
+
+		<script src="./js/materialize.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
