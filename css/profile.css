@@ -1,0 +1,55 @@
+@import url('home.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+.profile-wrapper{
+   padding: 1rem .5rem 0 1rem;
+   text-align: center;
+}
+
+.profile-wrapper .profile-picture{
+   width: 110px;
+   display: block;
+   margin: 0 auto;
+}
+
+.card-wrapper{
+   /* border: 1px solid red;
+   width: 700px;
+   display: flex;
+   flex-wrap: nowrap; */
+}
+
+.myprofile-card {
+	padding: 0.5rem 1rem;
+   border-radius: 1rem;
+   width: 200px;
+   margin: 2rem auto;
+}
+
+.myprofile-card-header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ececec;
+}
+
+
+.myprofile-task-status {
+	text-transform: uppercase;
+   font-weight: 500;
+   margin: 0 auto;
+}
+
+
+.task-num{
+   font-size: 4rem;
+   font-weight: 600;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.task-text{
+   margin: -1rem 0 0 0;
+   text-align: center;
+}

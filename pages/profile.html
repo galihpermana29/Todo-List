@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo-APP Profile</title>
+		<link rel="stylesheet" href="../css/materialize.min.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/profile.css" />
+	</head>
+	<body class="grey lighten-4">
+		<!-- NAVBAR -->
+		<nav class="blue lighten-1">
+			<div class="nav-wrapper container">
+				<a href="../index.html" class="brand-logo left">Todo's</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="../index.html">HOME</a></li>
+					<li><a href="profile.html">PROFILE</a></li>
+					<li><a href="task.html">ADD TASK</a></li>
+					<li><a href="../pages/about.html">ABOUT</a></li>
+				</ul>
+				<a href="#" data-target="mobile-nav" class="sidenav-trigger right"
+					><i class="large material-icons">dehaze</i></a
+				>
+
+				<ul class="sidenav" id="mobile-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="task.html">Add Task</a></li>
+					<li><a href="../pages/about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- END NAVBAR -->
+		<!-- BODY -->
+		<div class="container">
+			<div class="profile-wrapper">
+				<img src="../img/profile.png" alt="" class="profile-picture" />
+				<h5 class="profile-name">Galih Permana</h5>
+			</div>
+
+			<div class="card-wrapper">
+            <div class="card-stacked white myprofile-card">
+               <div class="card-content">
+                  <div class="myprofile-card-header-wrapper">
+                     <p class="myprofile-task-status red-text">Urgent</p>
+                  </div>
+                  <p class="task-num urgent red-text">10</p>
+                  <p class="task-text">task</p>
+               </div>
+            </div>
+
+            <div class="card-stacked white myprofile-card">
+               <div class="card-content">
+                  <div class="myprofile-card-header-wrapper">
+                     <p class="myprofile-task-status green-text">Ongoing</p>
+                  </div>
+                  <p class="task-num urgent green-text">7</p>
+                  <p class="task-text">task</p>
+               </div>
+            </div>
+         </div>
+		</div>
+		<!-- END BODY -->
+
+		<script src="../js/materialize.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>

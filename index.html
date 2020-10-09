@@ -9,9 +9,9 @@
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/home.css" />
 	</head>
-	<body class="grey lighten-3">
+	<body class="grey lighten-4">
 		<!-- NAVBAR -->
 
 		<nav class="blue lighten-1">
@@ -19,9 +19,9 @@
 				<a href="#" class="brand-logo left">Todo's</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="#home">HOME</a></li>
-					<li><a href="profile.html">PROFILE</a></li>
+					<li><a href="./pages/profile.html">PROFILE</a></li>
 					<li><a href="task.html">ADD TASK</a></li>
-					<li><a href="login.html">LOGIN</a></li>
+					<li><a href="./pages/about.html">ABOUT</a></li>
 				</ul>
 				<a href="#" data-target="mobile-nav" class="sidenav-trigger right"
 					><i class="large material-icons">dehaze</i></a
@@ -29,9 +29,9 @@
 
 				<ul class="sidenav" id="mobile-nav">
 					<li><a href="#home">Home</a></li>
-					<li><a href="profile.html">Profile</a></li>
+					<li><a href="./pages/profile.html">Profile</a></li>
 					<li><a href="task.html">Add Task</a></li>
-					<li><a href="login.html">Log In</a></li>
+					<li><a href="./pages/about.html">About</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -42,38 +42,63 @@
 		<div class="container" id="body-content">
 			<div class="mytask-wrapper">
 				<div class="mytask-text">
-					<h5 class="mytask-title">My Task</h5>
-					<p>8, October 2020</p>
+					<h5 class="mytask-title" style="font-weight: 600">My Tasks</h5>
+					<p>October, 8 2020</p>
 				</div>
 				<a
 					class="waves-effect waves-light btn-small blue lighten-1 mytask-button"
 					>+ Add Task
 				</a>
 			</div>
-
-			<div class="card-stacked white mytask-card">
-				<div class="card-content">
-					<div class="mytask-card-header-wrapper">
-						<p class="mytask-task-status red-text">Urgent</p>
-						<i class="tiny material-icons check-icon">check</i>
-					</div>
-					<div class="mytask-card-text-wrapper">
-						<p class="mytask-task-title">Basic Programming HW</p>
-						<p class="mytask-task-description">
-							Doing my homework at eling.ub.ac.id
-						</p>
-					</div>
-					<div class="mytask-card-icon-wrapper">
-						<div class="clock-task">
-							<i class="tiny material-icons">access_time</i>
-							<p class="mytask-task-clock">10.45-11.30 PM</p>
+			<div class="mytask-list-card-wrapper">
+				<div class="card-stacked white mytask-card">
+					<div class="card-content">
+						<div class="mytask-card-header-wrapper">
+							<p class="mytask-task-status red-text">Urgent</p>
+							<i class="tiny material-icons check-icon">check</i>
 						</div>
-						<div class="date-task">
-							<i class="tiny material-icons">event</i>
-							<p class="mytask-task-cal">10-08-2020</p>
+						<div class="mytask-card-text-wrapper urgent">
+							<p class="mytask-task-title">Basic Programming HW</p>
+							<p class="mytask-task-description">
+								Doing my homework at eling.ub.ac.id
+							</p>
+						</div>
+						<div class="mytask-card-icon-wrapper">
+							<div class="clock-task">
+								<i class="tiny material-icons">access_time</i>
+								<p class="mytask-task-clock">10.45-11.30 PM</p>
+							</div>
+							<div class="date-task">
+								<i class="tiny material-icons">event</i>
+								<p class="mytask-task-cal">10-08-2020</p>
+							</div>
 						</div>
 					</div>
-				</div>
+            </div>
+            <div class="card-stacked white mytask-card">
+               <div class="card-content">
+                  <div class="mytask-card-header-wrapper">
+                     <p class="mytask-task-status green-text">Ongoing</p>
+                     <i class="tiny material-icons check-icon">check</i>
+                  </div>
+                  <div class="mytask-card-text-wrapper ongoing">
+                     <p class="mytask-task-title">Submission Dicoding</p>
+                     <p class="mytask-task-description">
+                        Send submisson to dicoding PWA
+                     </p>
+                  </div>
+                  <div class="mytask-card-icon-wrapper">
+                     <div class="clock-task">
+                        <i class="tiny material-icons">access_time</i>
+                        <p class="mytask-task-clock">10.45-11.30 PM</p>
+                     </div>
+                     <div class="date-task">
+                        <i class="tiny material-icons">event</i>
+                        <p class="mytask-task-cal">10-10-2020</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
 			</div>
 		</div>
 		<!-- END OF BODY -->
