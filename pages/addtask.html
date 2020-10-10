@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo-APP Add Task</title>
+		<link rel="stylesheet" href="../css/materialize.min.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/addtask.css" />
+	</head>
+	<body class="grey lighten-4">
+		<!-- NAVBAR -->
+
+		<nav class="blue lighten-1">
+			<div class="nav-wrapper container">
+				<a href="../index.html" class="brand-logo left">Todo's</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="./profile.html">Profile</a></li>
+					<li><a href="./addtask.html">Add Task</a></li>
+					<li><a href="./about.html">About</a></li>
+				</ul>
+				<a href="#" data-target="mobile-nav" class="sidenav-trigger right"
+					><i class="large material-icons">dehaze</i></a
+				>
+				<ul class="sidenav" id="mobile-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="./profile.html">Profile</a></li>
+					<li><a href="./addtask.html">Add Task</a></li>
+					<li><a href="./about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- END OF NAVBAR -->
+
+		<!-- FORM -->
+		<div class="container add-task" id="add-task">
+			<div class="mytask-wrapper">
+				<div class="mytask-text">
+					<h5 class="addtask-title" style="font-weight: 600">Add Task</h5>
+				</div>
+			</div>
+			<div class="addtask-wrapper">
+				<div class="row task-form">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="task-name" type="text" class="validate" />
+								<label for="task-name">Task Name</label>
+							</div>
+							<div class="input-field col s12">
+								<input
+									id="date"
+									type="text"
+									class="datepicker validate"
+								/>
+								<label for="date">Date</label>
+							</div>
+							<div class="input-field col s12">
+								<input id="description" type="text" class="validate" />
+								<label for="description">Task Description</label>
+							</div>
+							<div class="input-field col s6">
+								<input
+									id="time-start"
+									type="text"
+									class="timepicker validate"
+								/>
+								<label for="time-start">Start Time</label>
+							</div>
+							<div class="input-field col s6">
+								<input
+									id="time-end"
+									type="text"
+									class="timepicker validate"
+								/>
+								<label for="time-end">End Time</label>
+							</div>
+							<div class="input-field col s12">
+								<a
+									class="waves-effect waves-light btn blue lighten-1 mytask-button addtask-button"
+								>
+									Add Task
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- END OF FORM -->
+
+		<script src="../js/materialize.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>
