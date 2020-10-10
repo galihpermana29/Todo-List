@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Todo-APP Profile</title>
 		<link rel="stylesheet" href="../css/materialize.min.css" />
 		<link
@@ -10,6 +11,12 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="../css/profile.css" />
+		<!-- MANIFEST -->
+		<link rel="manifest" href="/manifest.json" />
+		<!-- ios support -->
+		<link rel="apple-touch-icon" href="/img/icons/96.png" />
+		<meta name="apple-mobile-web-app-status-bar" content="#42a5f5" />
+		<meta name="theme-color" content="#42a5f5" />
 	</head>
 	<body class="grey lighten-4">
 		<!-- NAVBAR -->
@@ -44,29 +51,29 @@
 			</div>
 
 			<div class="card-wrapper">
-            <div class="card-stacked white myprofile-card">
-               <div class="card-content">
-                  <div class="myprofile-card-header-wrapper">
-                     <p class="myprofile-task-status red-text">Urgent</p>
-                  </div>
-                  <p class="task-num urgent red-text">10</p>
-                  <p class="task-text">task</p>
-               </div>
-            </div>
+				<div class="card-stacked white myprofile-card">
+					<div class="card-content">
+						<div class="myprofile-card-header-wrapper">
+							<p class="myprofile-task-status red-text">Urgent</p>
+						</div>
+						<p class="task-num urgent red-text">10</p>
+						<p class="task-text">task</p>
+					</div>
+				</div>
 
-            <div class="card-stacked white myprofile-card">
-               <div class="card-content">
-                  <div class="myprofile-card-header-wrapper">
-                     <p class="myprofile-task-status green-text">Ongoing</p>
-                  </div>
-                  <p class="task-num urgent green-text">7</p>
-                  <p class="task-text">task</p>
-               </div>
-            </div>
-         </div>
+				<div class="card-stacked white myprofile-card">
+					<div class="card-content">
+						<div class="myprofile-card-header-wrapper">
+							<p class="myprofile-task-status green-text">Ongoing</p>
+						</div>
+						<p class="task-num urgent green-text">7</p>
+						<p class="task-text">task</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- END BODY -->
-
+      <script src="../js/app.js"></script>
 		<script src="../js/materialize.min.js"></script>
 		<script src="../js/script.js"></script>
 	</body>

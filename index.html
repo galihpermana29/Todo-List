@@ -2,14 +2,21 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Todo-APP</title>
 		<link rel="stylesheet" href="./css/materialize.min.css" />
 		<link
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./css/home.css" />
+      <link rel="stylesheet" href="./css/home.css" />
+      <!-- MANIFEST -->
+      <link rel="manifest" href="/manifest.json">
+      <!-- ios support -->
+		<link rel="apple-touch-icon" href="/img/icons/96.png" />
+		<meta name="apple-mobile-web-app-status-bar" content="#42a5f5" />
+		<meta name="theme-color" content="#42a5f5" />
 	</head>
 	<body class="grey lighten-4">
 		<!-- NAVBAR -->
@@ -41,7 +48,7 @@
 			<div class="mytask-wrapper">
 				<div class="mytask-text">
 					<h5 class="mytask-title" style="font-weight: 600">My Tasks</h5>
-					<p>October, 8 2020</p>
+					<p>October, 9 2020</p>
 				</div>
 				<a
 					class="waves-effect waves-light btn-small blue lighten-1 mytask-button"
@@ -100,7 +107,7 @@
 			</div>
 		</div>
 		<!-- END OF BODY -->
-
+      <script src="./js/app.js"></script>
 		<script src="./js/materialize.min.js"></script>
 		<script src="./js/script.js"></script>
 	</body>
