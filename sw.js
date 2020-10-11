@@ -1,5 +1,5 @@
-const staticCache = 'static-v2.1';
-const dynamicCache = 'dynamic-v2.2';
+const staticCache = 'static-final-v1';
+const dynamicCache = 'dynamic-final-v1';
 const assets = [
 	'/',
 	'/index.html',
@@ -7,6 +7,7 @@ const assets = [
 	'/js/materialize.min.js',
 	'/js/script.js',
 	'/img/profile.png',
+	'/img/oops.png',
 	'/css/about.css',
 	'/css/addtask.css',
 	'/css/home.css',
@@ -15,6 +16,7 @@ const assets = [
 	'https://fonts.googleapis.com/icon?family=Material+Icons',
 	'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2',
 	'https://fonts.gstatic.com/s/dmserifdisplay/v4/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0g.woff2',
+	'/pages/fallback.html',
 ];
 
 self.addEventListener('install', (e) => {

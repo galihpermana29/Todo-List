@@ -1,15 +1,11 @@
-@import url("./home.css");
+@import url('./home.css');
 
-
-
-.addtask-wrapper{
-   background-color: white;
-   border-radius: 2.5rem;
-   padding: 1rem;
-   
+.addtask-wrapper {
+	background-color: white;
+	border-radius: 2.5rem;
+	padding: 1rem;
 }
 
-
-.addtask-button{
-   width: 100%;
+.addtask-button {
+	width: 100%;
 }

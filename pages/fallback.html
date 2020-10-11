@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Todo-APP Fallback</title>
+		<link rel="stylesheet" href="../css/materialize.min.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/home.css" />
+		<!-- MANIFEST -->
+		<link rel="manifest" href="/manifest.json" />
+		<!-- ios support -->
+		<link rel="apple-touch-icon" href="/img/icons/96.png" />
+		<meta name="apple-mobile-web-app-status-bar" content="#42a5f5" />
+		<meta name="theme-color" content="#42a5f5" />
+	</head>
+	<body class="grey lighten-4">
+		<!-- NAVBAR -->
+		<nav class="blue lighten-1">
+			<div class="nav-wrapper container">
+				<a href="../index.html" class="brand-logo left">Todo's</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="./profile.html">Profile</a></li>
+					<li><a href="./addtask.html">Add Task</a></li>
+					<li><a href="./about.html">About</a></li>
+				</ul>
+				<a href="#" data-target="mobile-nav" class="sidenav-trigger right"
+					><i class="large material-icons">dehaze</i></a
+				>
+
+				<ul class="sidenav" id="mobile-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="./profile.html">Profile</a></li>
+					<li><a href="./addtask.html">Add Task</a></li>
+					<li><a href="./about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- END NAVBAR -->
+		<div class="container ops">
+			<img src="/img/oops.png" alt="ooops" />
+			<h3>
+				Oooopss.. can't access this page because your'e an in offline mode!
+			</h3>
+		</div>
+
+		<script src="../js/app.js"></script>
+		<script src="../js/materialize.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>
