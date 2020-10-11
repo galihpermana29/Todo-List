@@ -1,5 +1,5 @@
 {
-   "name ": "Todo's App",
+   "name": "Todo's App",
    "short_name": "Todo's",
    "start_url": "/index.html",
    "display": "standalone",
